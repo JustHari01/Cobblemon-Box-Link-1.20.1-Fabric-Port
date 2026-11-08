@@ -1,0 +1,33 @@
+{
+    "schemaVersion": 1,
+    "id": "${mod_id}",
+    "version": "${version}",
+    "name": "${mod_name}",
+    "description": "${description}",
+    "authors": [
+        "${mod_author}"
+    ],
+    "license": "${license}",
+    "contact": {
+        "sources": "https://github.com/JustHari01/Cobblemon-Box-Link-1.20.1-Fabric-Port",
+        "issues": "https://github.com/JustHari01/Cobblemon-Box-Link-1.20.1-Fabric-Port/issues"
+    },
+    "icon": "${mod_id}_icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.emperdog.boxlink.BoxLinkFabricMod"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=${fabric_loader_version}",
+        "fabric-api": "*",
+        "minecraft": "${minecraft_version}",
+        "java": ">=${java_version}",
+        "cobblemon": ">=${cobblemon_version_range}"
+    },
+    "suggests": {
+        "trinkets": ">=${trinkets_version}",
+        "accessories": ">=${accessories_version_range}"
+    }
+}
